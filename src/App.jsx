@@ -10,6 +10,7 @@ import Layout from './pages/layout/Layout'
 import DetailProduct from './pages/detail-product/DetailProduct'
 
 const App = () => {
+  const b = 6
   return (
     <BrowserRouter>
     
