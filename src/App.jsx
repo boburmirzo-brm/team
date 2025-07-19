@@ -11,6 +11,7 @@ import DetailProduct from "./pages/detail-product/DetailProduct";
 
 const App = () => {
 	const a = 5;
+  const b = 6
 	return (
 		<BrowserRouter>
 			<Routes>
@@ -27,5 +28,8 @@ const App = () => {
 		</BrowserRouter>
 	);
 };
+
+
+
 
 export default App;
