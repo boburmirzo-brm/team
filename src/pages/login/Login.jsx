@@ -5,6 +5,7 @@ const Login = () => {
     <div>
         <h2>Login</h2>
         <button>Go back</button>
+        <input placeholder='enter login' type="text" />
     </div>
   )
 }
