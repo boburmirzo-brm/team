@@ -1,0 +1,20 @@
+.wrapper{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+.card,
+.skeleton{
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+.skeleton div{
+    height: 250px;
+    background: #ddd;
+}
