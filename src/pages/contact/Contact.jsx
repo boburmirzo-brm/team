@@ -14,6 +14,7 @@ const Contact = () => {
     <div id="contact">
 
       <Hero text={"Contact & Laylo"} />
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae nesciunt maiores nostrum. Aspernatur ipsa, quasi rem, dolorem error minima voluptate dolore velit porro voluptates rerum, tenetur voluptatem. Rem, excepturi quis?</p>
       {error && <p>something went wrong :(</p>}
       {loading ? <Skeleton /> : <Products data={data?.products} />}
     </div>
