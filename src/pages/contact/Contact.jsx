@@ -12,7 +12,8 @@ const Contact = () => {
 
   return (
     <div id="contact">
-      <Hero text={"Contact"} />
+
+      <Hero text={"Contact & Laylo"} />
       {error && <p>something went wrong :(</p>}
       {loading ? <Skeleton /> : <Products data={data?.products} />}
     </div>
